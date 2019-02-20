@@ -27,6 +27,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class WebScraperLego {
 
     private static void until(WebDriver driver, Function<WebDriver, Boolean> waitCondition, Long timeoutInSeconds) {
+        // blah blah blah
         WebDriverWait webDriverWait = new WebDriverWait(driver, timeoutInSeconds);
         webDriverWait.withTimeout(timeoutInSeconds, TimeUnit.SECONDS);
         try {
